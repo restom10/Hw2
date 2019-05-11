@@ -24,6 +24,12 @@ signalXS=signalS[:,0]
 signalYS=signalS[:,1]
 
 
+# In[20]:
+
+
+temblor=np.genfromtxt('temblor.txt')
+
+
 # In[11]:
 
 
@@ -82,6 +88,17 @@ plt.show()
 plt.close()
 
 
+# In[44]:
+
+
+plt.figure()
+plt.specgram(fourier, NFFT=256, Fs=2,noverlap=128)
+plt.title('SpecgramSignal')
+plt.savefig('SpecgramSignal.pdf')
+plt.show()
+plt.close()
+
+
 # In[18]:
 
 
@@ -103,6 +120,35 @@ plt.ylabel('signalSuma_transformada')
 plt.title('SignalSuma_transformada')
 plt.savefig('fourier_signalSuma.pdf')
 plt.show()
+plt.close()
+
+
+# In[39]:
+
+
+plt.figure()
+plt.specgram(fourierS, NFFT=256, Fs=2,noverlap=128)
+plt.title('SpecgramSignalSuma')
+plt.show()
+plt.savefig('SpecgramSignalSuma.pdf')
+plt.close()
+
+
+# In[21]:
+
+
+x=np.linspace(0,len(temblor),len(temblor))
+
+
+# In[23]:
+
+
+plt.figure()
+plt.plot(x,temblor)
+plt.title('Temblor')
+plt.savefig('Temblor.pdf')
+plt.show()
+plt.savefig('Temblor.pdf')
 plt.close()
 
 
