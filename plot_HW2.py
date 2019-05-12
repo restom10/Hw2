@@ -24,17 +24,18 @@ w3=u3[:,0]
 max3=u3[:,1]
 
 
-# In[3]:
+# In[5]:
 
 
 plt.figure()
 plt.xlim(2.5,4)
 plt.title('Edificios')
+plt.ylabel('Amplitud')
+plt.xlabel('w')
 plt.plot(w1,max1,label='Edificio 1')
 plt.plot(w2,max2,label='Edificio 2')
 plt.plot(w3,max3,label='Edificio 3')
 plt.legend()
-plt.show()
 plt.savefig('Graficas de edificios')
 plt.close()
 
