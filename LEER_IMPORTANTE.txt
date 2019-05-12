@@ -1,0 +1,9 @@
+No pude hacer el make file asi que todo quedo desodernado
+
+Pido disculpas de antemano. Tuve un imprevisto y perdi tiempo que considere tenia. 
+Por ello di prioridad a terminar los puntos que mas valian. 
+
+solo quedo faltando el latex y el make 
+
+Luego de correr edificio.cpp se debe correr la version que dice PLOTS_HW2_FINAL.PY
+y de igual manera para la parte del bono.
