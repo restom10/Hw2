@@ -7,3 +7,5 @@ solo quedo faltando el latex y el make
 
 Luego de correr edificio.cpp se debe correr la version que dice PLOTS_HW2_FINAL.PY
 y de igual manera para la parte del bono.
+
+Ademas debo decir que por trabajar en binder sin querer subi todo lo que este contiene y por ello aparecen mas de 100 commits que claramente no son mios. 
