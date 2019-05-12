@@ -31,18 +31,18 @@ signalYS=signalS[:,1]
 temblor=np.genfromtxt('temblor.txt')
 
 
-# In[81]:
+# In[89]:
 
 
 plt.figure()
 plt.subplot(2,1,1)
 plt.xticks([]), plt.yticks([])
 plt.title('Signal')
-plt.scatter(signalX,signalY)
+plt.plot(signalX,signalY)
 
 plt.subplot(2,1,2)
 plt.title('SignalSuma')
-plt.scatter(signalXS,signalYS)
+plt.plot(signalXS,signalYS)
 plt.savefig('Signal_SignalSuma.pdf')
 plt.close()
 
